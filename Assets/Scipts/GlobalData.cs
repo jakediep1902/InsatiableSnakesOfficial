@@ -20,6 +20,6 @@ public class GlobalData : MonoBehaviour
         }
         DontDestroyOnLoad(this.gameObject);
         isUserWatchAds = false;
-        Admod.eventReward.AddListener(() => isUserWatchAds = true);
+        //Admod.eventReward.AddListener(() => isUserWatchAds = true);
     } 
 }

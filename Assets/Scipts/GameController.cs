@@ -66,7 +66,7 @@ public class GameController : MonoBehaviour
     public Slider targetBar;
 
     private PlayerController playerCtr;
-    public Admod ad;
+    //public Admod ad;
 
     public static UnityEvent eventSkipAds = new UnityEvent();
     public static UnityEvent eventGetReward = new UnityEvent();
