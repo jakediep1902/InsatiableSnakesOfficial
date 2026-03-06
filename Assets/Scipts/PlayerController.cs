@@ -51,17 +51,17 @@ public class PlayerController : MonoBehaviour
         btnBoostTempPlus.onClick.AddListener(() => BoostTemp());
         btnLaunch.gameObject.SetActive(true);
 
-        if(GlobalData.isUserWatchAds)
-        {
-            AddBoostPlus(true);
-            Debug.Log(GlobalData.isUserWatchAds);
-            GlobalData.isUserWatchAds = false;
+        // if(GlobalData.isUserWatchAt)
+        // {
+        //     AddBoostPlus(true);
+        //     Debug.Log(GlobalData.isUserWatchAt);
+        //     GlobalData.isUserWatchAt = false;
             
-        }
-        else
-        {
-            AddBoostPlus(false);
-        }
+        // }
+        // else
+        // {
+        //     AddBoostPlus(false);
+        // }
 
     }  
     //void Update()

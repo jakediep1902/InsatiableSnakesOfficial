@@ -2396,7 +2396,7 @@ GameObject:
   - component: {fileID: 499146314}
   - component: {fileID: 499146313}
   m_Layer: 5
-  m_Name: BtnSkipAds
+  m_Name: BtnSkipAt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3446,7 +3446,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Watch Ads to get rewarded more star and donate Thanks !!!
+  m_Text: Have fun !!!
 --- !u!222 &609266126
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4321,7 +4321,7 @@ GameObject:
   - component: {fileID: 770171395}
   - component: {fileID: 770171394}
   m_Layer: 5
-  m_Name: BtnWatchAds
+  m_Name: BtnWatchAt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5582,7 +5582,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boardCountDown: {fileID: 1123452586}
-  boardAdsReward: {fileID: 1687293928}
+  boardAtReward: {fileID: 1687293928}
 --- !u!1 &957605382
 GameObject:
   m_ObjectHideFlags: 0
@@ -9030,7 +9030,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Get Reward
+  m_Text: Get Score
 --- !u!222 &1464002572
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10615,7 +10615,7 @@ GameObject:
   - component: {fileID: 1687293931}
   - component: {fileID: 1687293930}
   m_Layer: 5
-  m_Name: BoardAdsReward
+  m_Name: BoardAtReward
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10809,7 +10809,7 @@ GameObject:
   - component: {fileID: 1721997433}
   - component: {fileID: 1721997432}
   m_Layer: 5
-  m_Name: BtnSkipAds
+  m_Name: BtnSkipAt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11260,7 +11260,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Get Reward
+  m_Text: 'Get Score
+
+'
 --- !u!222 &1767505755
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12916,7 +12918,7 @@ GameObject:
   - component: {fileID: 2015971316}
   - component: {fileID: 2015971315}
   m_Layer: 5
-  m_Name: TxtReward
+  m_Name: TxtGetScore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12974,7 +12976,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Watch Ads to get reward more star and donate
+  m_Text: Get Score
 --- !u!222 &2015971316
 CanvasRenderer:
   m_ObjectHideFlags: 0
