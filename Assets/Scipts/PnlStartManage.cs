@@ -17,14 +17,14 @@ public class PnlStartManage : MonoBehaviour
     }
     void ExitGame()
     {
-        Debug.Log("Exit Game");
+        //Debug.Log("Exit Game");
         audioSource.Play();
         Application.Quit();
     }
     void PlayGame()
     {
         audioSource.Play();
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("Game");
     }
-    
+
 }

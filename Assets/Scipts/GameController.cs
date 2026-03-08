@@ -66,7 +66,7 @@ public class GameController : MonoBehaviour
     public Slider targetBar;
 
     private PlayerController playerCtr;
-    public Admod ad;
+    //public Admod ad;
 
     public static UnityEvent eventSkipAds = new UnityEvent();
     public static UnityEvent eventGetReward = new UnityEvent();
@@ -230,7 +230,7 @@ public class GameController : MonoBehaviour
     }
     public void SetBackToHome()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Login");
         HitButton();
     }
     public void SetRestartGame()
@@ -243,7 +243,7 @@ public class GameController : MonoBehaviour
     public void PlayGame()
     {
         HitButton();
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("Game");
         Time.timeScale = 1;
     }
     public void LoadScene()
