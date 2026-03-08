@@ -5,10 +5,10 @@ using UnityEngine;
 public class PnlLost : MonoBehaviour
 {
     [SerializeField] GameObject boardCountDown;
-    [SerializeField] GameObject boardAdsReward;
+    [SerializeField] GameObject boardAtReward;
     private void OnEnable()
     {
-        boardAdsReward.SetActive(true);
+        boardAtReward.SetActive(true);
     }
     public void CheckRandomShowBoardCountDown()//decrease rate show add 50%;
     {

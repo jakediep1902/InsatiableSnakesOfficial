@@ -6,7 +6,7 @@ using UnityEngine.UIElements;
 public class GlobalData : MonoBehaviour
 {
     public static GlobalData instance;    
-    public static bool isUserWatchAds = false;
+    //public static bool isUserWatchAt = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +19,7 @@ public class GlobalData : MonoBehaviour
             Destroy(this.gameObject);
         }
         DontDestroyOnLoad(this.gameObject);
-        isUserWatchAds = false;
-        //Admod.eventReward.AddListener(() => isUserWatchAds = true);
+        //isUserWatchAt = false;
+        //Atmob.eventReward.AddListener(() => isUserWatchAt = true);
     } 
 }

@@ -2396,7 +2396,7 @@ GameObject:
   - component: {fileID: 499146314}
   - component: {fileID: 499146313}
   m_Layer: 5
-  m_Name: BtnSkipAds
+  m_Name: BtnSkipAt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3446,7 +3446,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Watch Ads to get rewarded more star and donate Thanks !!!
+  m_Text: Have fun !!!
 --- !u!222 &609266126
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4321,7 +4321,7 @@ GameObject:
   - component: {fileID: 770171395}
   - component: {fileID: 770171394}
   m_Layer: 5
-  m_Name: BtnWatchAds
+  m_Name: BtnWatchAt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5582,7 +5582,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boardCountDown: {fileID: 1123452586}
-  boardAdsReward: {fileID: 1687293928}
+  boardAtReward: {fileID: 1687293928}
 --- !u!1 &957605382
 GameObject:
   m_ObjectHideFlags: 0
@@ -9030,7 +9030,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Get Reward
+  m_Text: Get Score
 --- !u!222 &1464002572
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10615,7 +10615,7 @@ GameObject:
   - component: {fileID: 1687293931}
   - component: {fileID: 1687293930}
   m_Layer: 5
-  m_Name: BoardAdsReward
+  m_Name: BoardAtReward
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10809,7 +10809,7 @@ GameObject:
   - component: {fileID: 1721997433}
   - component: {fileID: 1721997432}
   m_Layer: 5
-  m_Name: BtnSkipAds
+  m_Name: BtnSkipAt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11260,7 +11260,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Get Reward
+  m_Text: 'Get Score
+
+'
 --- !u!222 &1767505755
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12916,7 +12918,7 @@ GameObject:
   - component: {fileID: 2015971316}
   - component: {fileID: 2015971315}
   m_Layer: 5
-  m_Name: TxtReward
+  m_Name: TxtGetScore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12974,7 +12976,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Watch Ads to get reward more star and donate
+  m_Text: Get Score
 --- !u!222 &2015971316
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14493,79 +14495,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69224b072948dda4cacce5d7b93e37bc, type: 3}
---- !u!1001 &6813500992576268051
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 105546305173281400, guid: 4877ae1d26506b9418090ab7c448bfa7, type: 3}
-      propertyPath: gameController
-      value: 
-      objectReference: {fileID: 201447016}
-    - target: {fileID: 105546305173281400, guid: 4877ae1d26506b9418090ab7c448bfa7, type: 3}
-      propertyPath: AndroidRewardedID
-      value: ca-app-pub-3940256099942544/5224354917
-      objectReference: {fileID: 0}
-    - target: {fileID: 2504431376202765369, guid: 4877ae1d26506b9418090ab7c448bfa7, type: 3}
-      propertyPath: m_RootOrder
-      value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 2504431376202765369, guid: 4877ae1d26506b9418090ab7c448bfa7, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2504431376202765369, guid: 4877ae1d26506b9418090ab7c448bfa7, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2504431376202765369, guid: 4877ae1d26506b9418090ab7c448bfa7, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2504431376202765369, guid: 4877ae1d26506b9418090ab7c448bfa7, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2504431376202765369, guid: 4877ae1d26506b9418090ab7c448bfa7, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2504431376202765369, guid: 4877ae1d26506b9418090ab7c448bfa7, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2504431376202765369, guid: 4877ae1d26506b9418090ab7c448bfa7, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2504431376202765369, guid: 4877ae1d26506b9418090ab7c448bfa7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2504431376202765369, guid: 4877ae1d26506b9418090ab7c448bfa7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2504431376202765369, guid: 4877ae1d26506b9418090ab7c448bfa7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8365968901274186104, guid: 4877ae1d26506b9418090ab7c448bfa7, type: 3}
-      propertyPath: m_Name
-      value: Admod
-      objectReference: {fileID: 0}
-    - target: {fileID: 8365968901274186104, guid: 4877ae1d26506b9418090ab7c448bfa7, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 4877ae1d26506b9418090ab7c448bfa7, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -14585,5 +14514,4 @@ SceneRoots:
   - {fileID: 2012266897}
   - {fileID: 141439312}
   - {fileID: 1117314417}
-  - {fileID: 6813500992576268051}
   - {fileID: 1662528824}
